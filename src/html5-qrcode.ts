@@ -1465,6 +1465,7 @@ export class Html5Qrcode {
         shadingElement.style.left = "0px";
         shadingElement.style.right = "0px";
         shadingElement.id = `${Constants.SHADED_REGION_ELEMENT_ID}`;
+        shadingElement.style.visibility = "hidden";
   
         // Check if div is too small for shadows. As there are two 5px width
         // borders the needs to have a size above 10px.
